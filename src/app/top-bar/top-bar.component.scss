@@ -1,10 +1,11 @@
 .toolBar{
     width: 1000px;
     height: 413px;
-    background: url(../../assets/BusinessServices.jpg);
+    background: url(../../assets/Consulting.jpg);
     background-position: center;
     background-size: cover;
     margin-left: 390px;
+    background-color: white;
    
 }
 
@@ -102,12 +103,10 @@
 .box-0ne{
     height: 100%;
     background-image: linear-gradient(to right,
-    rgb(232, 226, 226),
-    rgb(232, 226, 226),
-    rgb(232, 226, 226),
-    rgba(225,225,225,0),
-    rgba(225,225,225,0),
-    rgba(225,225,225,0));
+    #fbfcfa,
+    rgba(225, 225, 225, 0));
 }
+
+
 
 
