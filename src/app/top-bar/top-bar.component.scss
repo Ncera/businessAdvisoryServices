@@ -1,10 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .toolBar{
     width: 1000px;
-    height: 413px;
+    height: 400px;
     background: url(../../assets/Consulting.jpg);
     background-position: center;
     background-size: cover;
-    margin-left: 390px;
     background-color: white;
    
 }
@@ -16,30 +20,25 @@
 }
 
 .nav-bar h1{
-    font-size: 25px;
-    margin-left: 60px;
+    font-size: 20px;
+    margin-left: 66px;
+    margin-top: 10px;
+    color: rgb(69, 64, 64);
 }
 
 .labels{
-    margin-left: 65px;
-    font-size: 18px;
+    margin-left: 78px;
+    font-size: 12px;
 }
 
-.contact{
-    margin-left: 10px;
-}
-
-.pricing{
-    margin-left: 10px;
-}
-
-.product{
+.contact, .pricing, .product{
     margin-left: 10px;
 }
 
 .btn{
     display: flex;
-    margin-left: 110px;
+    margin-left: 170px;
+    margin-top: 10px;
 }
 
 .btn-one{
@@ -52,21 +51,35 @@
 }
 
 .btn-two{
+    display: flex;
     width: 125px;
     height: 30px;
     border-radius: 4px;
     border: none;
-    background-color: rgb(0, 208, 255);
+    background-color: rgb(4, 175, 214);
     color: white;
 }
 
+.para p{
+    margin-left: 8px;
+    margin-top: 8px;
+    text-align: start;
+    color: white;
+}
+
+.right-arrow{
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
 .business h1,p{
-    margin-left: 98px;
+    margin-left: 88px;
 }
 
 .business h1{
-    font-size: 48px;
-    margin-top: 40px;
+    font-size: 49px;
+    margin-top: 45px;
+    color: rgb(30, 28, 28);
 }
 
 .business p{
@@ -84,26 +97,26 @@
     height: 35px;
     border-radius: 25px;
     border: none;
-    background-color: rgb(0, 208, 255);
+    margin-top: 20px;
+    background-color: rgb(4, 175, 214);
     color: beige;
 }
 
 .button-two{
     width: 125px;
     height: 35px;
-    border: 1px solid rgb(0, 208, 255);
+    border: 1px solid  rgb(4, 175, 214);
     border-radius: 25px;
     margin-left: 5px;
+    margin-top: 20px;
     background-color: transparent;
-    color: rgb(0, 208, 255);
+    color:  rgb(4, 175, 214);
 }
-
-
 
 .box-0ne{
     height: 100%;
     background-image: linear-gradient(to right,
-    #fbfcfa,
+    white 15%,
     rgba(225, 225, 225, 0));
 }
 
