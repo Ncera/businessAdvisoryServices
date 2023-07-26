@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./top-bar.component.scss']
 })
 export class TopBarComponent {
-
+  businesses = [
+    {
+      title: 'Business Advisory Services',
+      description: 'Disaster recover planning, business continuity management, and disaster recovery.'
+    },
+  ];
 }
