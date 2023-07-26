@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./bottom-bar.component.scss']
 })
 export class BottomBarComponent {
-  
+  clients = [
+    {
+      imageSrc: '../../assets/Friendz.png', p: 'Put the client first' 
+    }
+  ]
 }

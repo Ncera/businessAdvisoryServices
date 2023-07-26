@@ -26,7 +26,20 @@
     border-radius: 25px;
     border: none;
     margin-top: 20px;
-   background-color: rgb(4, 175, 214);
+    background-color: (95, 226, 255);
     color: beige;
 }
 
+.btn-one, .btn-two, .clients{
+    display: flex;
+}
+
+.button-1, .button-2{
+    width: 192px;
+    height: 60px;
+    background-color: white;
+    margin-left: 20px;
+    border: 1px solid rgb(230, 223, 223);
+    margin-top: 30px;
+     
+}

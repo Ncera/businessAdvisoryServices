@@ -10,12 +10,14 @@
 .advice h1{
     font-size: 25px;
     margin-top: 10px;
+    margin-left: 20px;
     color: rgb(30, 28, 28);
 }
 
 .advice p{
-    font-size: 10px;
-    color: rgb(88, 86, 86);
+   margin-left: 20px;
+   font-size: 10px;
+   color: rgb(88, 86, 86);
 }
 
 .buttons{
@@ -25,7 +27,6 @@
  .btn-one, .btn-two{
     width: 1200px;
     height: 48px;
-    display: flex;
     flex-direction: row;
     margin-top: 10px;
  }
@@ -33,29 +34,21 @@
  .friends{
     width: 40px;
     height: 40px;
+    margin-top: 4px;
     border-radius: 50px;
  }
 
  .clients{
-    display: flex;
     margin-left: 8px;
  }
 
- .button-one{
-    width: 192px;
-    height: 60px;
-    border: 1px solid rgb(242, 236, 236);
-    background-color: white;
-    margin-left: 10px;
-    margin-top: 10px;
+ .button-1{
+    margin-left: 20px;
  }
 
- .button-two{
-    width: 192px;
-    height: 60px;
+ .button-2{
+    margin-left: 20px;
     border: 1px solid rgb(230, 223, 223);
-    background-color: white;
-    margin-left: 10px;
     margin-top: 30px;
  }
 
