@@ -6,7 +6,7 @@
 .toolBar{
     width: 1000px;
     height: 380px;
-    background: url(../../assets/Consulting.jpg);
+    background: url(../../assets/BusinessServices.jpg);
     background-position: center;
     background-size: cover;
     background-color: white;
@@ -37,6 +37,12 @@
 .btn{
     margin-left: 170px;
     margin-top: 10px;
+}
+
+.btn-one{
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
 .btn-two{
